@@ -33,6 +33,8 @@ Edit
     /testData    # Excel files for test data  
 pom.xml         # Maven dependencies  
 README.md       # Project documentation  
+
+
 🚀 Setup & Run Instructions
 1️⃣ Clone the Repository
 sh
@@ -40,13 +42,14 @@ Copy
 Edit
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+
 2️⃣ Install Dependencies
 Ensure you have Java (JDK 11+), Maven, and a WebDriver (Chrome/Gecko) installed. Then run:
-
 sh
 Copy
 Edit
 mvn clean install
+
 3️⃣ Run Tests
 TestNG:
 sh
@@ -58,12 +61,12 @@ sh
 Copy
 Edit
 mvn test -Dcucumber.options="--tags @SmokeTest"
+
 4️⃣ View Reports
 TestNG Report: target/surefire-reports/index.html
 Cucumber Report: target/cucumber-reports/index.html
+
 🤝 Contributing
 Feel free to raise issues or submit pull requests for improvements!
 
-📜 License
-This project is licensed under the MIT License.
 
